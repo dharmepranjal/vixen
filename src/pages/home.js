@@ -29,13 +29,13 @@ export const render = () => {
         </a>
 
         <!-- Pedro or Not -->
-        <a href="#pedro" class="game-card-link">
+        <a href="#pedo" class="game-card-link">
           <div class="card">
             <div class="placeholder-img">
-              <img src="/assets/pedro_hero.png" alt="Pedro or Not" />
+              <img src="/assets/pedro_hero.png" alt="Pedo or Not" />
             </div>
             <div class="p-5">
-              <h2 class="text-xl font-bold font-display mb-2">Pedro or Not</h2>
+              <h2 class="text-xl font-bold font-display mb-2">Pedo or Not</h2>
               <p class="text-sm text-muted mb-3">Spot the predators</p>
               <div class="flex gap-2 flex-wrap">
                 <span class="tag tag-orange">Dark</span>
