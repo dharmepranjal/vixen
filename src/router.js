@@ -1,7 +1,9 @@
+import { initFloatingMemes, destroyFloatingMemes } from './utils/floatingMemes.js';
+
 const routes = {
   home: async () => (await import('./pages/home.js')).render(),
   epstein: async () => (await import('./pages/epstein.js')).render(),
-  pedro: async () => (await import('./pages/pedro.js')).render(),
+  pedo: async () => (await import('./pages/pedo.js')).render(),
   rappers: async () => (await import('./pages/rappers.js')).render(),
   meme: async () => (await import('./pages/meme.js')).render(),
 };
@@ -10,6 +12,13 @@ export const initRouter = (container) => {
   const navigate = async () => {
     const hash = window.location.hash.slice(1) || 'home';
     const route = routes[hash] || routes.home;
+
+    // Handle floating memes background
+    if (hash === 'home' || hash === '') {
+      initFloatingMemes();
+    } else {
+      destroyFloatingMemes();
+    }
 
     // Clear and render new page
     container.innerHTML = '';

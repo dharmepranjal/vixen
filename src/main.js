@@ -1,6 +1,7 @@
 import './styles/tokens.css';
 import './styles/animations.css';
 import './styles/main.css';
+import './styles/floatingMemes.css'; // Add dedicated styles
 import { initRouter } from './router.js';
 
 // Get the app container

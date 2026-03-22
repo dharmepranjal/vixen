@@ -1,44 +1,42 @@
 :root {
-  /* Background & Surface */
-  --bg: #FFFFFF;
-  --bg-secondary: #F7F7F8;
-  --bg-card: #FFFFFF;
-  --border: #E8E8E8;
+  /* Tabloid Conspiracy Board Palette */
+  --bg: #F5EDE1;      /* Newsprint Cream */
+  --bg-secondary: #E9E1D5;
+  --bg-card: #FAF6F0; /* Lighter Paper */
+  --border: #DDD0C0;  /* Kraft/Cardboard */
 
   /* Text */
-  --text: #1A1A1A;
-  --text-secondary: #717171;
-  --text-muted: #A0A0A0;
+  --text: #1C1917;    /* Ink Black */
+  --text-secondary: #6B6560; /* Pencil Gray */
+  --text-muted: #A39E97;     /* Faded Lead */
 
-  /* Accents */
-  --red: #FF4D4F;
-  --green: #52C41A;
-  --blue: #4096FF;
-  --orange: #FA8C16;
-  --purple: #9254DE;
-  --yellow: #FADB14;
+  /* Tabloid Accents */
+  --tabloid-red: #C41E1E;    /* Headline Red */
+  --mustard: #D4A017;        /* Highlight Yellow */
+  --tape: rgba(200, 190, 170, 0.5); /* Scotch Tape */
 
-  /* Feedback */
-  --success: #52C41A;
-  --error: #FF4D4F;
-  --success-bg: rgba(82, 196, 26, 0.1);
-  --error-bg: rgba(255, 77, 79, 0.1);
+  /* Standard Game Tokens (Functional) */
+  --red: #C41E1E;
+  --green: #2E7D32;
+  --blue: #1565C0;
+  --orange: #E65100;
+  --purple: #6A1B9A;
 
-  /* Font Families (overridden in main.css import) */
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
+  /* Typography */
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'General Sans', sans-serif;
 
   /* Layout */
-  --max-width: 1100px;
-  --container-padding: 1.25rem;
-  --radius-sm: 10px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 32px;
+  --max-width: 1200px;
+  --container-padding: 2rem;
+  --radius-sm: 4px;   /* Sharper, more editorial */
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
-  --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
-  --shadow-hover: 0 12px 40px rgba(0,0,0,0.14);
+  /* Shadows (Faded, Physical) */
+  --shadow-sm: 0 1px 3px rgba(28, 25, 23, 0.05);
+  --shadow-md: 0 4px 12px rgba(28, 25, 23, 0.08);
+  --shadow-lg: 0 12px 24px rgba(28, 25, 23, 0.12);
+  --shadow-hover: 0 16px 40px rgba(28, 25, 23, 0.15);
 }

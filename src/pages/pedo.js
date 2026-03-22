@@ -1,11 +1,11 @@
 import { renderBinaryChoiceGame } from '../engines/binaryChoice.js';
-import { pedroData } from '../data/pedro.js';
+import { pedoData } from '../data/pedo.js';
 
 export const render = () => {
   return renderBinaryChoiceGame({
     title: "Pedo or Not?",
     question: "Known or alleged Predator?",
-    data: pedroData,
+    data: pedoData,
     yesLabel: "PEDO",
     noLabel: "NOT PEDO",
     theme: { accent: "var(--accent-pink)" }
